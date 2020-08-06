@@ -2,7 +2,11 @@
 # Given a hash with numeric values, return the key for the smallest value
 
 def key_for_min_value(name_hash)
+<<<<<<< HEAD
   if name_hash == nil
+=======
+  if name_hash == nil || name_hash.length = 0
+>>>>>>> 14c5163ea14c86a00bdce7144681ca78304f9917
     return name_hash
   end
   lowest_value = 9999
